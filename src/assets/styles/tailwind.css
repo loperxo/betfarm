@@ -1,0 +1,62 @@
+@tailwind base;
+
+/* Local Font - Ubuntu */
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    src: url("../vendors/fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+/* Local Font - Avenir */
+@font-face {
+    font-family: "Avenir";
+    font-weight: 800;
+    font-style: normal;
+    src: url("../vendors/fonts/AvenirFont/Archive/AvenirLTStd-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../vendors/fonts/AvenirFont/Archive/AvenirHeavy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: 600;
+    font-style: normal;
+    src: url("../vendors/fonts/AvenirFont/Archive/AvenirMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../vendors/fonts/AvenirFont/Archive/AvenirLTStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../vendors/fonts/AvenirFont/Archive/AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../vendors/fonts/AvenirFont/Archive/AvenirLTStd-Light.otf") format("opentype");
+}
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+body {
+    font-family: "Avenir";
+}
+
+@tailwind components;
+@tailwind utilities;
