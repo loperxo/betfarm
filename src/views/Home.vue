@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		Betfarm
+		<div class="border-1"></div>
 	</div>
 </template>
 
