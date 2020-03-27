@@ -1,4 +1,5 @@
 <template>
+<<<<<<< Updated upstream
     <div id="app" class="h-screen">
         <a
             href="#"
@@ -15,3 +16,17 @@ export default {
 </script>
 
 <style></style>
+=======
+	<div id="app">
+		<router-view />
+	</div>
+</template>
+
+<style>
+#app {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-height: 100vh;
+}
+</style>
+>>>>>>> Stashed changes
