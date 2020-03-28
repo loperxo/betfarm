@@ -46,7 +46,17 @@ module.exports = {
 				'lg/xl': { min: '1240px', max: '1439px' }
 			},
 			colors: {
-				'orange-okuk': '#DE4A09'
+				white: '#c2c5cc',
+				'bf-navy': '#171b29',
+				'bf-navy-1': '#212432',
+				'bf-navy-2': '#0f1218',
+				'bf-yellow': '#d2a53e',
+				'bf-green': '#366e53',
+				'bf-orange': '#af873f',
+				'bf-red': '#d72f4e',
+				'bf-grey': '#363945',
+				'bf-grey-1': '#7c8190',
+				'bf-grey-2': '#3d3f4b'
 			},
 			fontSize: {
 				'11px': '0.6875rem',
@@ -113,12 +123,21 @@ module.exports = {
 				'-40': '-40rem'
 			},
 			borderRadius: {
+				'07': '0.7rem',
+				//
 				'11px': '0.6875rem',
 				'lg-2': '5rem',
 				'6px': '0.375rem'
 			},
 			borderWidth: {
 				'0-1': '0.1px'
+			},
+			spacing: {
+				'015': '0.15rem',
+				'04': '0.4rem',
+				'225': '2.25rem',
+				'47p': '47%'
+				//
 			},
 			margin: {
 				'7px': '0.4375rem',
