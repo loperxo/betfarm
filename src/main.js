@@ -1,15 +1,9 @@
-<<<<<<< Updated upstream
-import Vue from "vue";
-import App from "./App.vue";
-
-import "./assets/styles/tailwind.css";
-=======
 import Vue from 'vue';
 import VueProgressBar from 'vue-progressbar';
 
 import App from './App.vue';
 import router from './router';
-import store from './store/index';
+// import store from './store/index';
 
 import './assets/styles/tailwind.css';
 
@@ -28,17 +22,11 @@ const progressbarOptions = {
 };
 
 Vue.use(VueProgressBar, progressbarOptions);
->>>>>>> Stashed changes
 
 Vue.config.productionTip = false;
 
 new Vue({
-<<<<<<< Updated upstream
-    render: h => h(App)
-}).$mount("#app");
-=======
 	router,
-	store,
+	// store,
 	render: h => h(App)
 }).$mount('#app');
->>>>>>> Stashed changes
